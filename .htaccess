@@ -1,0 +1,24 @@
+RewriteEngine On
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Redirects
+Redirect /live https://www.facebook.com/CHFCAlbany/
+Redirect /visit https://www.cityharvestalbany.com/map-and-directions
+Redirect /contact https://www.cityharvestalbany.com/contact
+Redirect /pcogive https://cityharvest.churchcenter.com/giving
+Redirect /give https://cityharvest.churchcenter.com/giving
+Redirect /giving https://cityharvest.churchcenter.com/giving
+Redirect /optin https://cityharvest.churchcenter.com/people/forms/854855
+Redirect /GIVE https://cityharvest.churchcenter.com/giving
+Redirect /listen https://www.cityharvestalbany.com/sermons/
+Redirect /apple https://geo.itunes.apple.com/us/app/my-church-center/id1357742931?ls=1&mt=8
+Redirect /android https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter
+Redirect /eventRequestForm https://cityharvest.churchcenter.com/people/forms/222428
+Redirect /oasis https://www.cityharvestalbany.com/oasis
+Redirect /2024musicaltracks https://drive.google.com/drive/folders/1SDa704RVXDIQqaE0yCxRVcDH6p4iuSAO?usp=drive_link
+Redirect /2025teamUp https://cityharvest.churchcenter.com/people/forms/94429
+
+ErrorDocument 403 https://www.chfc.me/
+ErrorDocument 404 https://www.chfc.me/
