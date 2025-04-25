@@ -7,7 +7,6 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 Redirect /live https://www.facebook.com/CHFCAlbany/
 Redirect /visit https://www.cityharvestalbany.com/map-and-directions
 Redirect /contact https://www.cityharvestalbany.com/contact
-Redirect /pcogive https://cityharvest.churchcenter.com/giving
 Redirect /give https://cityharvest.churchcenter.com/giving
 Redirect /giving https://cityharvest.churchcenter.com/giving
 Redirect /optin https://cityharvest.churchcenter.com/people/forms/854855
@@ -17,8 +16,9 @@ Redirect /apple https://geo.itunes.apple.com/us/app/my-church-center/id135774293
 Redirect /android https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter
 Redirect /eventRequestForm https://cityharvest.churchcenter.com/people/forms/222428
 Redirect /oasis https://www.cityharvestalbany.com/oasis
-Redirect /2024musicaltracks https://drive.google.com/drive/folders/1SDa704RVXDIQqaE0yCxRVcDH6p4iuSAO?usp=drive_link
 Redirect /2025teamUp https://cityharvest.churchcenter.com/people/forms/94429
+Redirect /wordforyou https://app.wordforyou.com/churches/access-code/QYC/register
+Redirect /funeral https://www.cityharvestalbany.com/20250426-funeralservice/
 
 ErrorDocument 403 https://www.chfc.me/
 ErrorDocument 404 https://www.chfc.me/
