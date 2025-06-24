@@ -26,13 +26,12 @@ Redirect /listen https://www.cityharvestalbany.com/sermons-2/
 Redirect /apple https://geo.itunes.apple.com/us/app/my-church-center/id1357742931?ls=1&mt=8
 Redirect /android https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter
 Redirect /eventRequestForm https://cityharvest.churchcenter.com/people/forms/222428
-Redirect /oasis https://www.cityharvestalbany.com/oasis
 Redirect /2025teamUp https://cityharvest.churchcenter.com/people/forms/94429
 Redirect /wordforyou https://app.wordforyou.com/churches/access-code/QYC/register
-Redirect /funeral https://www.cityharvestalbany.com/20250426-funeralservice/
 Redirect /handout/whbbogdns/1 https://www.cityharvestalbany.com/wp-content/uploads/Part-One-Introduction.pdf
 Redirect /handout/whbbogdns/2 https://www.cityharvestalbany.com/wp-content/uploads/Part-Two-Righteous-and-Holy.pdf
 Redirect /handout/whbbogdns/3 https://www.cityharvestalbany.com/wp-content/uploads/Part-Three-He-Who-Sins-is-of-the-Devil.pdf
+Redirect /handout/whbbogdns/4 https://www.cityharvestalbany.com/wp-content/uploads/Whoever-is-Born-of-God-Part-Four-Our-Position-in-Christ.pdf
 
 ErrorDocument 403 https://www.chfc.me/
 ErrorDocument 404 https://www.chfc.me/
