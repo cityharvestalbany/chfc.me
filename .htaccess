@@ -19,6 +19,9 @@ Redirect /oasis https://www.cityharvestalbany.com/oasis
 Redirect /2025teamUp https://cityharvest.churchcenter.com/people/forms/94429
 Redirect /wordforyou https://app.wordforyou.com/churches/access-code/QYC/register
 Redirect /funeral https://www.cityharvestalbany.com/20250426-funeralservice/
+Redirect /handout/whbbogdns/1 https://www.cityharvestalbany.com/wp-content/uploads/Part-One-Introduction.pdf
+Redirect /handout/whbbogdns/2 https://www.cityharvestalbany.com/wp-content/uploads/Part-Two-Righteous-and-Holy.pdf
+Redirect /handout/whbbogdns/3 https://www.cityharvestalbany.com/wp-content/uploads/Part-Three-He-Who-Sins-is-of-the-Devil.pdf
 
 ErrorDocument 403 https://www.chfc.me/
 ErrorDocument 404 https://www.chfc.me/
