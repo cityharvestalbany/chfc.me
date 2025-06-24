@@ -4,14 +4,25 @@ RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 # Redirects
+Redirect /home https://www.cityharvestalbany.com
+Redirect /s/threads https://www.threads.net/@cityharvestalbany
+Redirect /s/bsky https://bsky.app/profile/chfcalbany.bsky.social
+Redirect /s/youtube https://www.youtube.com/channel/UC68tEuPfq08Ovmlyt3T4yeQ
+Redirect /s/instagram https://www.instagram.com/cityharvestalbany
+Redirect /s/facebook https://www.facebook.com/City%20Harvest%20Family%20Church-173163586044405/
+Redirect /s/tiktok https://vm.tiktok.com/ZT2XHDGgm/
+Redirect /s/x https://x.com/CHFCAlbany
+Redirect /s/twitch https://www.twitch.tv/cityharvestalbany
+Redirect /s/maps https://www.google.com/search?q=City%20Harvest%20Family%20Church,%20Albany,%20NY
 Redirect /live https://www.facebook.com/CHFCAlbany/
-Redirect /visit https://www.cityharvestalbany.com/map-and-directions
-Redirect /contact https://www.cityharvestalbany.com/contact
+Redirect /visit https://www.cityharvestalbany.com/
+Redirect /contact https://www.cityharvestalbany.com/
+Redirect /events https://www.cityharvestalbany.com/events-calendar/
 Redirect /give https://cityharvest.churchcenter.com/giving
 Redirect /giving https://cityharvest.churchcenter.com/giving
 Redirect /optin https://cityharvest.churchcenter.com/people/forms/854855
 Redirect /GIVE https://cityharvest.churchcenter.com/giving
-Redirect /listen https://www.cityharvestalbany.com/sermons/
+Redirect /listen https://www.cityharvestalbany.com/sermons-2/
 Redirect /apple https://geo.itunes.apple.com/us/app/my-church-center/id1357742931?ls=1&mt=8
 Redirect /android https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter
 Redirect /eventRequestForm https://cityharvest.churchcenter.com/people/forms/222428

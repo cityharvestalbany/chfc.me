@@ -65,7 +65,7 @@
   body {
 	margin:0;
 	padding:0;
-	background-color:#ffffff;
+	background-color:#483737;
 	color:#1a1a1a;
 	font-family:"Open Sans",system-ui;
 	font-size:1.125rem;     				/* 18px */
@@ -256,7 +256,7 @@ a:hover {
 	outline-offset: 2px;
   }
 :root.theme-dark body {
-	background-color:#121212;
+	background-color:#483737;
 	color:#ffffff;
 }
 :root.theme-dark a:not(.button) {
@@ -272,7 +272,7 @@ a:hover {
 }
 @media (prefers-color-scheme:dark) {
 	:root.theme-auto body {
-	background-color:#121212;
+	background-color:#483737;
 	color:#ffffff;
 }
 :root.theme-auto :focus-visible {
