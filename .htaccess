@@ -32,6 +32,7 @@ Redirect /handout/whbbogdns/1 https://www.cityharvestalbany.com/wp-content/uploa
 Redirect /handout/whbbogdns/2 https://www.cityharvestalbany.com/wp-content/uploads/Part-Two-Righteous-and-Holy.pdf
 Redirect /handout/whbbogdns/3 https://www.cityharvestalbany.com/wp-content/uploads/Part-Three-He-Who-Sins-is-of-the-Devil.pdf
 Redirect /handout/whbbogdns/4 https://www.cityharvestalbany.com/wp-content/uploads/Whoever-is-Born-of-God-Part-Four-Our-Position-in-Christ.pdf
+Redirect /handout/whbbogdns/5 https://www.cityharvestalbany.com/wp-content/uploads/Whoever-is-Born-of-God-Part-Five-His-seed-remains-in-him.pdf
 
 ErrorDocument 403 https://www.chfc.me/
 ErrorDocument 404 https://www.chfc.me/
