@@ -23,6 +23,7 @@ Redirect /giving https://cityharvest.churchcenter.com/giving
 Redirect /optin https://cityharvest.churchcenter.com/people/forms/854855
 Redirect /GIVE https://cityharvest.churchcenter.com/giving
 Redirect /listen https://www.cityharvestalbany.com/sermons-2/
+Redirect /app https://churchcenter.com/setup
 Redirect /apple https://geo.itunes.apple.com/us/app/my-church-center/id1357742931?ls=1&mt=8
 Redirect /android https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter
 Redirect /eventRequestForm https://cityharvest.churchcenter.com/people/forms/222428
