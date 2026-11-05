@@ -4,7 +4,7 @@ RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 # Redirects
-Redirect /home https://www.cityharvestalbany.com
+Redirect /home https://cityharvestalbany.com
 Redirect /s/threads https://www.threads.net/@cityharvestalbany
 Redirect /s/bsky https://bsky.app/profile/chfcalbany.bsky.social
 Redirect /s/youtube https://www.youtube.com/channel/UC68tEuPfq08Ovmlyt3T4yeQ
@@ -14,16 +14,16 @@ Redirect /s/tiktok https://vm.tiktok.com/ZT2XHDGgm/
 Redirect /s/x https://x.com/CHFCAlbany
 Redirect /s/twitch https://www.twitch.tv/cityharvestalbany
 Redirect /s/maps https://www.google.com/search?q=City%20Harvest%20Family%20Church,%20Albany,%20NY
-Redirect /live https://www.facebook.com/CHFCAlbany/
-Redirect /visit https://www.cityharvestalbany.com/
-Redirect /contact https://www.cityharvestalbany.com/
-Redirect /events https://www.cityharvestalbany.com/events-calendar/
+Redirect /live https://www.youtube.com/channel/UC68tEuPfq08Ovmlyt3T4yeQ
+Redirect /visit https://cityharvestalbany.com/welcome/
+Redirect /contact https://cityharvestalbany.com/contact/
+Redirect /events https://cityharvestalbany.com/calendar/
 Redirect /give https://cityharvest.churchcenter.com/giving
 Redirect /giving https://cityharvest.churchcenter.com/giving
 Redirect /s/yv-bible https://www.bible.com/organizations/fd8789c0-b5f9-4b13-ae26-ac79ac00e140
 Redirect /optin https://cityharvest.churchcenter.com/people/forms/854855
 Redirect /GIVE https://cityharvest.churchcenter.com/giving
-Redirect /listen https://www.cityharvestalbany.com/sermons-2/
+Redirect /listen https://www.youtube.com/channel/UC68tEuPfq08Ovmlyt3T4yeQ
 Redirect /app https://churchcenter.com/setup
 Redirect /apple https://geo.itunes.apple.com/us/app/my-church-center/id1357742931?ls=1&mt=8
 Redirect /android https://play.google.com/store/apps/details?id=com.ministrycentered.churchcenter
@@ -31,13 +31,6 @@ Redirect /eventRequestForm https://cityharvest.churchcenter.com/people/forms/222
 Redirect /2025teamUp https://cityharvest.churchcenter.com/people/forms/94429
 Redirect /2025MenNeverRetreat https://cityharvest.churchcenter.com/registrations/events/3159617
 Redirect /wordforyou https://app.wordforyou.com/churches/access-code/QYC/register
-Redirect /handout/whbbogdns/1 https://www.cityharvestalbany.com/wp-content/uploads/Part-One-Introduction.pdf
-Redirect /handout/whbbogdns/2 https://www.cityharvestalbany.com/wp-content/uploads/Part-Two-Righteous-and-Holy.pdf
-Redirect /handout/whbbogdns/3 https://www.cityharvestalbany.com/wp-content/uploads/Part-Three-He-Who-Sins-is-of-the-Devil.pdf
-Redirect /handout/whbbogdns/4 https://www.cityharvestalbany.com/wp-content/uploads/Whoever-is-Born-of-God-Part-Four-Our-Position-in-Christ.pdf
-Redirect /handout/whbbogdns/5 https://www.cityharvestalbany.com/wp-content/uploads/Whoever-is-Born-of-God-Part-Five-His-seed-remains-in-him.pdf
-Redirect /handout/whbbogdns/6 https://www.cityharvestalbany.com/wp-content/uploads/Whoever-is-Born-of-God-.-Addendum.pdf
-Redirect /readtogether/nt https://www.cityharvestalbany.com/biblereading/10286/new-testament-30-day-reading-schedule/
 
 ErrorDocument 403 https://www.chfc.me/
 ErrorDocument 404 https://www.chfc.me/
